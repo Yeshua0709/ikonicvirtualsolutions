@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+.bannerTitle h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 3.6em;
+    color:#1E3A8A;
+    
+}
+
+.bannerTitle p{
+    margin-bottom: -15px;
+    font-size: 1.125em;
+}
+
+.contact-btn{
+    background-color: #3b82f6;
+    width: 150px;
+    padding:1em;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.about h1{
+    color:#2563eb;
+    font-size: 2.5em;
+    margin-bottom: 0.8em;
+}
+
+.about p{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 100;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    color: rgb(17, 17, 17);
+}
+
+.quote{
+    text-align: center;
+    color:#60a5fa;
+    font-family: 'Source Sans Pro', sans-serif;
+}
