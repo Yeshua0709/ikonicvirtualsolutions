@@ -115,6 +115,28 @@ input[type="checkbox"]{
   word-break: break-word;
   color:#1E3A8A;
 }
+
+.section{
+  width: 30%;
+  position: relative;
+  background-color: #DBEAFE;
+  padding:5em 1em;
+}
+.section svg{
+  color:#1E3A8A;
+  
+}
+
+.icon-holder{
+  background-color:#BFDBFE ;
+  padding: 1em;
+ width:110px;
+ height: 110px;
+ border-radius: 50%;
+ position: absolute;
+ top:-4em;
+ left:1em;
+}
 @media (max-width: 1000px){
   nav{
     padding: 0 40px 0 50px;
