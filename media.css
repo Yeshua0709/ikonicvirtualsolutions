@@ -1,0 +1,85 @@
+@media(max-width:924px){
+    .bannerTitle h1{
+        margin:0.5em 0;
+        line-height: 1em;
+    }
+    .others{
+        padding: 1em;
+    }
+}
+
+@media(max-width:800px){
+    .flexbox{
+        
+      flex-direction: column;
+      margin: 0 auto;
+      padding:1em;
+    }
+    .row{
+        width: 100%;
+    }
+    .bannerImg{
+        order: 1;
+    }
+    .bannerTitle{
+        order: 2;
+        
+    }
+    .bannerTitle h1{
+        margin:0.5em 0;
+        line-height: 1em;
+    }
+    .about{
+        padding: 1em;
+        text-align: left;
+    }
+    .about p{
+        word-break:keep-all;
+    }
+    .quote{
+        padding: 1em;
+    }
+    .section{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 8em;
+    }
+    .one{
+        order: 1;
+    }
+    .two{
+        order:2;
+    }
+    #mc_embed_signup{
+        width: 90%;
+        padding:1em;
+        margin:1em;
+    }
+    
+}
+
+
+@media(max-width:675px){
+    .services{
+        padding: 1em;
+    }
+    .services h1{
+        text-align: left;
+    }
+    .services-flexbox{
+        flex-direction: column;
+        margin:0;
+        justify-content: flex-start;
+    }
+    .srvc-row{
+       display: flex;
+       margin:1em 0;
+       justify-content: flex-start
+    }
+    .srvc-row p{
+        text-indent: 15px;
+    }
+    .apiform p{
+        font-size: 2em;
+    }
+}
