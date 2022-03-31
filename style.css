@@ -67,6 +67,7 @@ input[type="checkbox"]{
 .flexbox{
     width: 100%;
     display: flex;
+    justify-content: space-between;
 
 }
 
@@ -116,11 +117,16 @@ input[type="checkbox"]{
   color:#1E3A8A;
 }
 
+.jobs{
+  margin:2em 0;
+}
 .section{
   width: 30%;
   position: relative;
   background-color: #DBEAFE;
   padding:5em 1em;
+  margin:4em 0;
+  box-shadow: 2px 3px 10px #000;
 }
 .section svg{
   color:#1E3A8A;
@@ -137,9 +143,31 @@ input[type="checkbox"]{
  top:-4em;
  left:1em;
 }
+
+.box{
+  background-color:#BFDBFE ;
+  padding: 1.5em;
+  box-shadow: 2px 3px 10px #000;
+}
+
+.bottom{
+margin:10em auto;
+}
+
+#mc_embed_signup{
+  box-shadow: 2px 2px 5px #191919;
+  width: 80%;
+}
+
+footer{
+  background-color: #1E3A8A;
+  padding: 1em;
+  color: white;
+  text-align: center;
+}
 @media (max-width: 1000px){
   nav{
-    padding: 0 40px 0 50px;
+    padding: 0 25px 0 0;
   }
 }
 @media (max-width: 920px) {

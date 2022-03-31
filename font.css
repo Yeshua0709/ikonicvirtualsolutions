@@ -49,3 +49,53 @@
     font-size: 2.5em;
     text-transform: uppercase;
 }
+
+.jobtitle{
+    color:#1E40AF;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-align: center;
+    margin:2em 0;
+}
+
+.section h1{
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.section ul{
+    padding:0 1em;
+}
+
+.boxtitle{
+    color:#1E40AF;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.box h2{
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.bottom .row{
+   padding: 0 0.5em;
+}
+
+.bottom .row p{
+
+    font-size: 2.7em;
+    color:#1E3A8A ;
+    margin-bottom: 0.5em;
+}
+
+.bottom .row span{
+    color: #2563EB;
+   font-weight: 600;
+    font-size: 2.7em;
+    
+}
+
+.apiform P{
+    color: #1E3A8A;
+    font-size: 3em;
+}
