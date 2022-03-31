@@ -9,6 +9,7 @@
 
 body,html{
     background-color: #eff5fd;
+    
 }
 nav{
   display: flex;
@@ -183,8 +184,19 @@ footer{
   }
 }
 @media (max-width: 920px) {
+  .banner{
+    padding-top: 4em;
+  }
+  header{
+    margin-top: -2.1em;
+    padding-top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
     nav{
         background-color: #1e3a8a;
+        
     }
   nav .menu-btn i{
     display: block;
@@ -194,7 +206,7 @@ footer{
   }
   nav ul{
     position: fixed;
-    top: 80px;
+    top: 75px;
     left: -100%;
     background: #3b82f6;
     height: 100vh;
