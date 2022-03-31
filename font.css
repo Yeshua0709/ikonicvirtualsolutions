@@ -103,3 +103,8 @@ background: linear-gradient(333deg, rgba(30,58,138,1) 0%, rgba(30,64,175,1) 53%,
     color: #1E3A8A;
     font-size: 3em;
 }
+
+.others h2{
+    color: #1E3A8A;
+    font-weight: 500;
+}
