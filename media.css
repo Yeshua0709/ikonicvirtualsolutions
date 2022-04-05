@@ -6,6 +6,10 @@
     .others{
         padding: 1em;
     }
+    .apiform{
+        width: 95%;
+        padding: 2em;
+    }
 }
 
 @media(max-width:800px){
@@ -81,5 +85,8 @@
     }
     .apiform p{
         font-size: 2em;
+    }
+    .apiform p{
+        font-size: 1.5em;
     }
 }
